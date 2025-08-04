@@ -31,6 +31,13 @@
 
 # Log files
 /wp/*.log
+/logs/
+
+# environment and composer files
+composer.lock
+.env
+.lando.yml
+/vendor/
 
 # htaccess
 /wp/.htaccess
